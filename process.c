@@ -58,6 +58,9 @@
 #include <kvm.h>
 #endif
 
+int ARGC;
+char **ARGV;
+
 #ifndef USE_PRCTL
 #undef PR_SET_DUMPABLE
 #define PR_SET_DUMPABLE 0
